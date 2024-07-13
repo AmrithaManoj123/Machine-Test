@@ -1,0 +1,42 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    text-align: center;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(148, 80, 80, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 1em;
+    color: #4CAF50;
+  }
+  
+  .product-category {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
